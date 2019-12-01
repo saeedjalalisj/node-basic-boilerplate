@@ -1,0 +1,27 @@
+{
+  "name": "node-basic-boilerplate",
+  "version": "1.0.0",
+  "description": "node basic boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeedjalalisj/node-basic-boilerplate.git"
+  },
+  "engines": {
+	"node": ">=8"
+  },
+  "keywords": [
+    "node",
+    "boilerplate",
+    "node-boilerplate"
+  ],
+  "author": "saeed jalali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saeedjalalisj/node-basic-boilerplate/issues"
+  },
+  "homepage": "https://github.com/saeedjalalisj/node-basic-boilerplate#readme"
+}
