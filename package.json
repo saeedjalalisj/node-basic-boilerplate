@@ -4,14 +4,20 @@
   "description": "node basic boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --testTimeout=10000"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saeedjalalisj/node-basic-boilerplate.git"
   },
   "engines": {
-	"node": ">=8"
+    "node": ">=8"
   },
   "keywords": [
     "node",
@@ -23,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/saeedjalalisj/node-basic-boilerplate/issues"
   },
-  "homepage": "https://github.com/saeedjalalisj/node-basic-boilerplate#readme"
+  "homepage": "https://github.com/saeedjalalisj/node-basic-boilerplate#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
